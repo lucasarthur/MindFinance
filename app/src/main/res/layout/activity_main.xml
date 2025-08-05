@@ -81,10 +81,11 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <TextView
+                <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
                     android:text="Contas fixas"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -106,62 +107,85 @@
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
                             <ImageView
+                                android:id="@+id/iv_fixa_1"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                tools:src="@tools:sample/avatars" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_fixa_1"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Energia"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
                             <ImageView
+                                android:id="@+id/iv_fixa_2"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                tools:src="@tools:sample/avatars" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_fixa_2"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Agua"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
                             <ImageView
+                                android:id="@+id/iv_fixa_3"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                tools:src="@tools:sample/avatars" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_fixa_3"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Aluguel"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/iv_fixa_4"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
+                            <TextView
+                                android:id="@+id/tv_fixa_4"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -169,6 +193,7 @@
                 </HorizontalScrollView>
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_gerenciar_fixas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -197,10 +222,11 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <TextView
+                <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
                     android:text="Contas não fixas"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -222,60 +248,85 @@
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
                             <ImageView
+                                android:id="@+id/iv_nao_fixa_1"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                tools:src="@tools:sample/avatars" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_nao_fixa_1"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="iFood"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
                             <ImageView
+                                android:id="@+id/iv_nao_fixa_2"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                tools:src="@tools:sample/avatars" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_nao_fixa_2"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="Revisão"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
-                            <View
+                            <ImageView
+                                android:id="@+id/iv_nao_fixa_3"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="#E0E0E0" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_nao_fixa_3"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/iv_nao_fixa_4"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
+                            <TextView
+                                android:id="@+id/tv_nao_fixa_4"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -283,6 +334,7 @@
                 </HorizontalScrollView>
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_gerenciar_nao_fixas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -309,10 +361,11 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <TextView
+                <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
                     android:text="Objetivos"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -334,58 +387,85 @@
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
                             <ImageView
+                                android:id="@+id/iv_meta_1"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:scaleType="centerCrop"
-                                tools:src="@tools:sample/avatars" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_meta_1"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
-                                android:text="2008"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
-                            <View
+                            <ImageView
+                                android:id="@+id/iv_meta_2"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="#E0E0E0" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_meta_2"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
-
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="16dp"
                             android:gravity="center_horizontal"
                             android:orientation="vertical">
-
-                            <View
+                            <ImageView
+                                android:id="@+id/iv_meta_3"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:background="#E0E0E0" />
-
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:id="@+id/tv_meta_3"
+                                android:layout_width="80dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:id="@+id/iv_meta_4"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:background="#E0E0E0"
+                                android:scaleType="centerCrop"/>
+                            <TextView
+                                android:id="@+id/tv_meta_4"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:gravity="center_horizontal"
+                                android:text="VAZIO"
                                 android:textColor="@android:color/black"
                                 android:textSize="14sp" />
                         </LinearLayout>
@@ -393,6 +473,7 @@
                 </HorizontalScrollView>
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_gerenciar_metas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"

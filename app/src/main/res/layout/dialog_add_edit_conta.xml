@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/et_nome_conta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome da conta (ex: Aluguel)"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/et_valor_conta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Valor (ex: 1200.50)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_escolher_imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#98FB98"
+        android:layout_marginTop="16dp"
+        android:text="Escolher Imagem" />
+
+    <ImageView
+        android:id="@+id/iv_preview_imagem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="#E0E0E0"
+        android:scaleType="centerCrop" />
+</LinearLayout>
